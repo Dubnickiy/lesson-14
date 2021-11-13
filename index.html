@@ -11,6 +11,17 @@
             rel="stylesheet"
         />
         <link rel="stylesheet" href="style.css" />
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.js"
+            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"
+            integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer" defer
+        ></script>
         <title>lesson-14</title>
     </head>
     <body>
@@ -35,6 +46,7 @@
                             <input
                                 type="text"
                                 placeholder="Your phone number..."
+                                data-mask="00-000-000000"
                             />
                         </li>
                         <li>
@@ -58,7 +70,9 @@
             <div class="end">
                 <p class="text">© 2015 Company. All right reserved.</p>
                 <img src="logo-small.png" alt="logo" />
-                <p class="text-2">Made with <span class="love">love</span> by Auskteez</p>
+                <p class="text-2">
+                    Made with <span class="love">love</span> by Auskteez
+                </p>
             </div>
         </div>
     </body>
